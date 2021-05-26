@@ -3,16 +3,79 @@
     <head>
         <meta charset='utf-8'>
         <style>
-            table, th, tr, td {
-                border: solid 1px black;
-                border-collapse: collapse;
-                padding: 3px;
+            *{padding: 0px; margin: 0px;}
+            header{
+                font-size: xx-large;
+                text-align: center;
             }
+            
+            table, th, tr, td {
+            
+                border-collapse: collapse;
+            
+                border: solid 2px black;
+	border-collapse: collapse;
+	padding: 8px;
+	text-align: center;
+	font-weight: bold;
+	margin: auto;
+   padding: 10px;
+                text-align: justify;
+                text-align: inherit;
+            }
+            nav{
+	width: 1500px; height: 70px;
+	margin-top: 10px;
+	border-bottom: solid 1px black;
+    text-align: center;
+	}
+	#h_menu li{
+             list-style-type: none;
+             display: inline;
+             margin-top: 30px;
+			
+         }
+         section{
+	width: 1150px; height: 340px;
+	margin-top: 10px;
+	float: left;
+	margin-right: 29px;}
+         .menus{
+             margin: 20px;
+             padding-left: 20px;
+             font-weight: bold;
+             color: pink;
+             font-size: xx-large;}
+             #v_menu li{
+             list-style-type: none;
+             display: inline;
+             margin-top: 30px;}
+             #img{
+                 float: right;
+                 margin-left: 200px;
+             }
+             footer{
+	width: 1300px; height: 130px;
+	margin-top: 10px;}
+             a:link {text-decoration: none; color: rgb(226, 204, 236);}
+    a:hover {text-decoration: none; color: rgb(231, 135, 240);}
+
         </style>
     </head>
 <body>
-    <h3>21-1학기 시간표</h3>
-    <table>
+   <header>
+       김태우의 21-1학기 시간표
+   </header>
+   <nav>
+       <ul id="h_menu">
+           <li class="menus"><a href="프로필 만들기 과제.html">프로필</a></li>
+           <li class="menus"><a href="월간 일정표">5월 일정</a></li>
+            <li class="menus"><a href="메인 가안.html">내 사이트</li></a>
+       </ul>
+   </nav>
+   
+  <section>
+   <table>
         <tr>
             <td colspan="1"></td>
             <td colspan="1">월</td>
@@ -92,34 +155,52 @@
                  
                
             </tr>
+            <div id="img">
+            <img src="김태우 면허증.jpg" width="300" height="400">
+            </div>
+        </section>
     </table>
-    <a href="회원가입페이지.html">
+    <footer>
+    <ul id="v_menu">
+    <li class="menus">    
+        <a href="회원가입페이지.html">
    회원가입페이지
     </a>
-    <hr>
+    </li>
+    
+    <li class="menus">
     <a href="루바토 펜션 안내.html">
         루바토 팬션 안내
     </a>
-    <hr>
+    </li>
+    <li class="menus">
     <a href="호서 행사 안내.html">
         호서 행사 안내
     </a>
-    <hr>
+    </li>
+    <li class="menus">
     <a href="야간개장.html">
         야간개장 안내
     </a>
-    <hr>
+    </li>
+    <li class="menus">
     <a href="세일.html">
         세일 안내장
     </a>
-    <hr>
+    </li>
+    <li class="menus">
     <a href="5월 일정표.html">
     월간 일정표
     </a>
-    <hr>
+    </li>
+    <li class="menus">
     <a href="쇼핑몰 판매목록.html">
         쇼핑몰 판매목록
     </a>
+    </li>
+    </ul>
+    </ul>
+    </footer>
 
 </body>
     </html>
